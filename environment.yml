@@ -1,0 +1,85 @@
+name: tcga-brca
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  # -------------------------------------------------------------------------
+  # Base
+  # -------------------------------------------------------------------------
+  - python=3.11
+  - pip
+
+  # -------------------------------------------------------------------------
+  # Download
+  # -------------------------------------------------------------------------
+  - gdc-client             # download de dados TCGA via manifest
+
+  # -------------------------------------------------------------------------
+  # QC (reciclado do projeto SARS-CoV-2)
+  # -------------------------------------------------------------------------
+  - fastqc
+  - fastp
+  - multiqc
+
+  # -------------------------------------------------------------------------
+  # Projeto 1 — CNV (dados derivados do GDC, sem necessidade de alinhamento)
+  # Os scripts 02_alignment e 03_cnvkit ficam disponíveis para quando
+  # houver acesso a FASTQs (controlled access / doutorado)
+  # -------------------------------------------------------------------------
+  - bwa                    # alinhamento (futuro / controlled access)
+  - samtools               # manipulação de BAM + markdup
+  - r-base=4.3             # R
+  - r-tidyverse            # dplyr, tidyr, readr, stringr, purrr
+  - r-ggplot2              # visualização
+  - r-patchwork            # combinar plots
+  - r-viridis              # paletas de cor
+  - bioconductor-genomicranges
+  - bioconductor-gviz
+  - bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
+  - bioconductor-org.hs.eg.db
+  - bioconductor-copynumberplots
+  - bioconductor-variantannotation
+
+  # -------------------------------------------------------------------------
+  # Projeto 2 — RNA-seq
+  # -------------------------------------------------------------------------
+  - star                   # alinhador splice-aware (futuro / controlled access)
+  - subread                # featureCounts (contagem de reads)
+  - bioconductor-deseq2    # normalização e DEG
+  - bioconductor-apeglm    # shrinkage de log fold change (DESeq2)
+  - bioconductor-enhancedvolcano  # volcano plots
+  - bioconductor-complexheatmap   # heatmaps de expressão
+  - r-pheatmap             # alternativa leve para heatmaps
+
+  # -------------------------------------------------------------------------
+  # Projeto 3 — Metilação (Illumina 450k / EPIC array)
+  # -------------------------------------------------------------------------
+  - bioconductor-minfi           # pipeline principal de metilação
+  - bioconductor-champ           # alternativa ao minfi, mais automatizado
+  - bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
+  - bioconductor-illuminahumanmethylation450kmanifest
+  - bioconductor-bumphunter      # DMR (differentially methylated regions)
+  - bioconductor-dmrcate         # alternativa para DMR
+
+  # -------------------------------------------------------------------------
+  # Projeto 4 — Integração multi-omics (módulo futuro do curso)
+  # -------------------------------------------------------------------------
+  - bioconductor-mixomics        # integração PLS/DIABLO
+  - bioconductor-mofax           # MOFA+ (Multi-Omics Factor Analysis)
+  - r-corrplot                   # correlação entre ômicas
+
+  # -------------------------------------------------------------------------
+  # Utilitários gerais
+  # -------------------------------------------------------------------------
+  - r-rmarkdown            # relatórios reprodutíveis
+  - r-knitr
+  - jupyter                # notebooks Python (opcional)
+  - pandas                 # manipulação de tabelas em Python
+  - numpy
+  - matplotlib
+  - seaborn
+
+  # pip extras (não disponíveis no conda)
+  - pip:
+    - multiqc              # garante versão mais recente via pip se necessário

@@ -1,0 +1,46 @@
+File ID	File Name	Data Category	Data Type	Case ID	Sample ID	Tissue Type
+b334c399-22fd-489e-9ceb-1013120e5dc0	SHAWM_p_TCGAb72_SNP_N_GenomeWideSNP_6_B04_698100.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-A1-A0SK	TCGA-A1-A0SK-10A	Normal
+68992e65-0c41-4257-84a8-72c79e4e38f7	SHAWM_p_TCGAb72_SNP_N_GenomeWideSNP_6_D01_698044.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-A1-A0SK	TCGA-A1-A0SK-01A	Tumor
+0166a42c-e905-490e-a07a-dd084b3c4534	ef0c17dd-be28-4c1c-9ced-9f328b6c423a.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-A1-A0SK	TCGA-A1-A0SK-01A	Tumor
+507952aa-23c0-4239-ae19-04d8f862acc2	55d29bdf-c959-4eda-ab2b-e09d7abb58fa.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-A1-A0SK	TCGA-A1-A0SK-01A	Tumor
+c54fc1e5-7c3f-4496-9eb1-d3cddd5c33db	BONZE_p_TCGAb56_SNP_1N_GenomeWideSNP_6_B02_666898.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-A2-A0CM	TCGA-A2-A0CM-10A	Normal
+409ebd74-d697-465e-98e1-c6950e9a8eea	BONZE_p_TCGAb56_SNP_1N_GenomeWideSNP_6_F06_666922.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-A2-A0CM	TCGA-A2-A0CM-01A	Tumor
+fcf32c0d-c2b4-4872-90bc-cf6055ae73e6	9bcdef99-4777-4410-984b-73ee0ac0cb8d.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-A2-A0CM	TCGA-A2-A0CM-01A	Tumor
+8fb0660c-fb39-47f0-8450-1f7abff3b656	3334577a-8045-4613-9a1b-e79fd62d5d6d.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-A2-A0CM	TCGA-A2-A0CM-01A	Tumor
+9c0b426d-5cdc-4efe-bde5-a7ccb953a7db	BONZE_p_TCGAb56_SNP_1N_GenomeWideSNP_6_A11_666908.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-A2-A0CU	TCGA-A2-A0CU-10A	Normal
+d62f92de-74c6-43bb-b3b3-a93482597bb2	BONZE_p_TCGAb56_SNP_1N_GenomeWideSNP_6_D04_666886.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-A2-A0CU	TCGA-A2-A0CU-01A	Tumor
+2edb4f9f-c865-4b5a-aa91-db6b0b9680ea	40f6614e-332e-449c-9615-0710f0dffbee.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-A2-A0CU	TCGA-A2-A0CU-01A	Tumor
+1dd898ab-3b85-4932-b889-0eb0a494f2b6	e0e050cc-5e2a-41fc-8394-b4816a9dc8a2.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-A2-A0CU	TCGA-A2-A0CU-01A	Tumor
+aae7a7ce-2978-4b9d-ac03-2922d86eba36	SHAWM_p_TCGAb72_SNP_N_GenomeWideSNP_6_A09_698014.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-AR-A0TR	TCGA-AR-A0TR-10A	Normal
+3ee97e99-0a97-461e-affb-cf3c9152005c	SHAWM_p_TCGAb72_SNP_N_GenomeWideSNP_6_C08_698096.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-AR-A0TR	TCGA-AR-A0TR-01A	Tumor
+dbea16c1-a626-45e4-a2b2-bc4039a597e2	0c0daf8e-7ba6-453b-9f5b-f28993ddb1a5.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-AR-A0TR	TCGA-AR-A0TR-01A	Tumor
+04a7cce8-c3b3-4994-9dac-c0e53099f37d	676cce88-9f6e-4490-8e73-c0e88bd00075.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-AR-A0TR	TCGA-AR-A0TR-01A	Tumor
+e1cfc4af-4601-4f3b-bb57-0584a8f372f0	COZEN_p_TCGAb56_SNP_2N_GenomeWideSNP_6_D11_667058.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-B6-A0I9	TCGA-B6-A0I9-10A	Normal
+ad057e6a-6288-4c38-9eec-7c4d7ea8cae9	COZEN_p_TCGAb56_SNP_2N_GenomeWideSNP_6_G02_667138.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-B6-A0I9	TCGA-B6-A0I9-01A	Tumor
+63e26f25-00cd-4a43-8796-fad6e996ed1b	a4ac9f47-6466-4f7e-984a-c3f7e8caaa56.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-B6-A0I9	TCGA-B6-A0I9-01A	Tumor
+0710056c-2f04-4182-90ca-45492dd6444c	9d0f51bf-a66d-4ea1-8599-2aee772c165b.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-B6-A0I9	TCGA-B6-A0I9-01A	Tumor
+debabb08-fe3b-4b3e-a875-7da96279b018	HAULS_p_TCGAb47_SNP_2N_GenomeWideSNP_6_A12_628410.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A0DZ	TCGA-BH-A0DZ-10A	Normal
+74b6e8d8-ed3c-43c0-b5b9-53ac6bbff6be	MAPLE_p_TCGAb78_BrstRedo_SNP_N_GenomeWideSNP_6_E09_729616.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A0DZ	TCGA-BH-A0DZ-11A	Normal
+247a689b-e0c3-4cd3-b2bb-a58be0f40612	HAULS_p_TCGAb47_SNP_2N_GenomeWideSNP_6_G07_628582.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A0DZ	TCGA-BH-A0DZ-01A	Tumor
+2bb6edbd-e943-48dd-acd0-426c5dcd283b	7b5340d9-a4f9-4aa1-abd1-16c37dd95453.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-BH-A0DZ	TCGA-BH-A0DZ-11A	Normal
+781e51cf-0ae6-4ab3-9c14-5463403e5220	bca6a516-a06a-4168-8eee-2d63d3e5fcda.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-BH-A0DZ	TCGA-BH-A0DZ-01A	Tumor
+b70b68a1-28c4-4ed3-a04c-b622e583f10b	d6cc88bd-b0ba-4606-955d-2dc32e6d2d97.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-BH-A0DZ	TCGA-BH-A0DZ-11A	Normal
+be6f8b24-e668-41c6-89f7-f4cdc8533cae	63afc197-8c49-4150-a98b-61c47f182778.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-BH-A0DZ	TCGA-BH-A0DZ-01A	Tumor
+9ec85e0f-8c29-4281-85da-229e3825bfd4	HITCH_p_TCGASNP_b93_N_GenomeWideSNP_6_H08_741572.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A18Q	TCGA-BH-A18Q-11A	Normal
+d26d5462-1691-4c8a-81b4-c53442ee2fd7	HITCH_p_TCGASNP_b93_N_GenomeWideSNP_6_F06_741464.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A18Q	TCGA-BH-A18Q-01A	Tumor
+c0c54519-18ba-4559-8dac-8b1ec8a3e4e0	53510a65-6d18-448c-ad17-107c856094fd.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-BH-A18Q	TCGA-BH-A18Q-11A	Normal
+d3feed1e-9375-40aa-b866-3712e28abfc9	992b0b1b-54e0-4f46-828b-3c1bc2022b37.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-BH-A18Q	TCGA-BH-A18Q-01A	Tumor
+336f0e3e-878e-4ee8-b2aa-cc536f3432f3	0a950719-ca7a-4dbf-8755-262cabf3d4b7.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-BH-A18Q	TCGA-BH-A18Q-11A	Normal
+c7aeba7e-b78e-4586-a4dd-8a04cc440737	f48956a3-c821-429f-b1ad-a27133d739bd.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-BH-A18Q	TCGA-BH-A18Q-01A	Tumor
+fd55a6c1-6053-4c7e-b190-1c1d22cc9f5d	HITCH_p_TCGASNP_b93_N_GenomeWideSNP_6_G03_741556.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A18R	TCGA-BH-A18R-11A	Normal
+55c5fbc9-0ffe-4322-8a28-a10fb6fa6969	HITCH_p_TCGASNP_b93_N_GenomeWideSNP_6_G01_741522.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A18R	TCGA-BH-A18R-01A	Tumor
+570ca02a-619d-4e0a-92a4-c296fb6f6519	768b6c07-6c63-4d21-b299-11380a2d1042.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-BH-A18R	TCGA-BH-A18R-11A	Normal
+ca3e36a0-3b46-4ef7-979d-7681c36b06f3	a3637c1a-a1ef-438e-af50-03d0b49fd7bf.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-BH-A18R	TCGA-BH-A18R-01A	Tumor
+bd239a8e-56e2-45ca-bc44-bff98b72c1d6	d28a7c02-2f33-46e2-bff9-5ed518ea6fb6.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-BH-A18R	TCGA-BH-A18R-11A	Normal
+373e0f41-a47e-4f4e-88fe-9703d16a840c	e869b178-9abe-44ca-ae6b-a6caae1834fb.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-BH-A18R	TCGA-BH-A18R-01A	Tumor
+621db1a0-0f58-4a1c-93c7-a8eac6d53b2a	HITCH_p_TCGASNP_b93_N_GenomeWideSNP_6_G10_741566.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A18V	TCGA-BH-A18V-11A	Normal
+a939765f-67b4-4948-93d5-0e8207fabe6e	HITCH_p_TCGASNP_b93_N_GenomeWideSNP_6_G08_741502.nocnv_grch38.seg.v2.txt	Copy Number Variation	Masked Copy Number Segment	TCGA-BH-A18V	TCGA-BH-A18V-01A	Tumor
+a097da53-c8bc-4f64-a43e-ea98af548fc1	7e77594d-b56c-4ada-b27e-a9aac501065e.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-BH-A18V	TCGA-BH-A18V-11A	Normal
+93e203c9-8b05-428b-94e6-e2cf609ce00b	a0a8da08-b161-43d5-83dd-23079b352a5f.methylation_array.sesame.level3betas.txt	DNA Methylation	Methylation Beta Value	TCGA-BH-A18V	TCGA-BH-A18V-01A	Tumor
+040d00da-2bc9-49d4-bf6c-b4515b6a2bbf	d4f91697-1c39-4398-bf2f-85217a22ddff.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-BH-A18V	TCGA-BH-A18V-11A	Normal
+19baf63b-8488-4b90-83b7-a6c671da0095	9440b088-b04e-4417-9543-5001b0a2b217.rna_seq.augmented_star_gene_counts.tsv	Transcriptome Profiling	Gene Expression Quantification	TCGA-BH-A18V	TCGA-BH-A18V-01A	Tumor
