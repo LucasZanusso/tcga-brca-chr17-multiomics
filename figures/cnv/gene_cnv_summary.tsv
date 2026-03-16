@@ -1,0 +1,10 @@
+case_id	BRCA1	ERBB2	TP53	pam50	her2
+TCGA-A1-A0SK	-0.0954	-0.0954	-0.0897	Basal-like	Negative
+TCGA-A2-A0CM	-0.2311	-0.2311	-0.2615	Basal-like	Negative
+TCGA-A2-A0CU	0.4596	0.4596	-0.5205	Luminal A	Negative
+TCGA-AR-A0TR	0.0574	0.0574	-0.831	Luminal A	Negative
+TCGA-B6-A0I9	-0.3265	2.4986	-0.3431	HER2-enriched	Positive
+TCGA-BH-A0DZ	-0.484	1.9288	-0.493	HER2-enriched	Positive
+TCGA-BH-A18Q	-0.4005	-0.4005	-0.4005	Basal-like	Negative
+TCGA-BH-A18R	-0.4938	1.8629	-0.0339	HER2-enriched	Positive
+TCGA-BH-A18V	-0.0105	-0.0105	-0.3751	Basal-like	Negative
