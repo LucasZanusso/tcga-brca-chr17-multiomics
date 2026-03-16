@@ -1,0 +1,9 @@
+data/cnv/
+data/rna/
+data/methylation/
+data/raw/downloads/
+figures/
+.RData
+.Rhistory
+.Rproj.user/
+*.Rproj
