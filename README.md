@@ -1,4 +1,4 @@
-# TCGA-BRCA Multi-Omics Analysis (chr17 focus)
+# Integrative Multi-Omics Analysis of Chromosome 17 in TCGA Breast Cancer (Ongoing)
 
 Integrative analysis of **Copy Number Variation**, **RNA-seq expression**, and **DNA Methylation** across three independent but connected projects, using open-access derived data from TCGA-BRCA.
 
@@ -216,7 +216,16 @@ conda env create -f environment_locked.yml
 - **Scalability**: scripts iterate over files in `data/` directories. Adding more samples requires only updating the manifest and re-running — no script changes needed.
 
 ---
+## Project Status
+Active development
 
+- ✅ CNV analysis completed
+- ✅ RNA-seq analysis in completed
+- ✅ Methylation analysis in completed
+- 🔄 Multi-omics integration planned
+- 🔄 Results discussion planned
+
+---
 ## Related projects
 
 - [SARS-CoV-2 Genomic Surveillance](../sars-cov2-surveillance) — variant calling pipeline (BWA-MEM → BCFtools → SnpEff) that originated the QC and alignment scripts reused here.
