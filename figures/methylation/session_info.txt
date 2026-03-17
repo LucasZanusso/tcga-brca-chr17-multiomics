@@ -1,0 +1,172 @@
+R version 4.5.2 (2025-10-31)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 24.04.4 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=pt_BR.UTF-8      
+ [2] LC_NUMERIC=C              
+ [3] LC_TIME=pt_BR.UTF-8       
+ [4] LC_COLLATE=pt_BR.UTF-8    
+ [5] LC_MONETARY=pt_BR.UTF-8   
+ [6] LC_MESSAGES=pt_BR.UTF-8   
+ [7] LC_PAPER=pt_BR.UTF-8      
+ [8] LC_NAME=C                 
+ [9] LC_ADDRESS=C              
+[10] LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=pt_BR.UTF-8
+[12] LC_IDENTIFICATION=C       
+
+time zone: America/Sao_Paulo
+tzcode source: system (glibc)
+
+attached base packages:
+[1] parallel  stats4   
+[3] stats     graphics 
+[5] grDevices utils    
+[7] datasets  methods  
+[9] base     
+
+other attached packages:
+ [1] IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0
+ [2] minfi_1.56.0                                       
+ [3] bumphunter_1.52.0                                  
+ [4] locfit_1.5-9.12                                    
+ [5] iterators_1.0.14                                   
+ [6] foreach_1.5.2                                      
+ [7] Biostrings_2.78.0                                  
+ [8] XVector_0.50.0                                     
+ [9] SummarizedExperiment_1.40.0                        
+[10] Biobase_2.70.0                                     
+[11] MatrixGenerics_1.22.0                              
+[12] matrixStats_1.5.0                                  
+[13] GenomicRanges_1.62.1                               
+[14] Seqinfo_1.0.0                                      
+[15] IRanges_2.44.0                                     
+[16] S4Vectors_0.48.0                                   
+[17] BiocGenerics_0.56.0                                
+[18] generics_0.1.4                                     
+[19] limma_3.66.0                                       
+[20] ggrepel_0.9.8                                      
+[21] pheatmap_1.0.13                                    
+[22] patchwork_1.3.2                                    
+[23] lubridate_1.9.5                                    
+[24] forcats_1.0.1                                      
+[25] stringr_1.6.0                                      
+[26] dplyr_1.2.0                                        
+[27] purrr_1.2.1                                        
+[28] readr_2.2.0                                        
+[29] tidyr_1.3.2                                        
+[30] tibble_3.3.1                                       
+[31] ggplot2_4.0.2                                      
+[32] tidyverse_2.0.0                                    
+
+loaded via a namespace (and not attached):
+  [1] RColorBrewer_1.1-3       
+  [2] rstudioapi_0.18.0        
+  [3] jsonlite_2.0.0           
+  [4] magrittr_2.0.4           
+  [5] GenomicFeatures_1.62.0   
+  [6] farver_2.1.2             
+  [7] ragg_1.5.1               
+  [8] BiocIO_1.20.0            
+  [9] vctrs_0.7.1              
+ [10] multtest_2.66.0          
+ [11] memoise_2.0.1            
+ [12] Rsamtools_2.26.0         
+ [13] DelayedMatrixStats_1.32.0
+ [14] RCurl_1.98-1.17          
+ [15] askpass_1.2.1            
+ [16] S4Arrays_1.10.1          
+ [17] curl_7.0.0               
+ [18] Rhdf5lib_1.32.0          
+ [19] SparseArray_1.10.9       
+ [20] rhdf5_2.54.1             
+ [21] nor1mix_1.3-3            
+ [22] plyr_1.8.9               
+ [23] cachem_1.1.0             
+ [24] GenomicAlignments_1.46.0 
+ [25] lifecycle_1.0.5          
+ [26] pkgconfig_2.0.3          
+ [27] Matrix_1.7-4             
+ [28] R6_2.6.1                 
+ [29] fastmap_1.2.0            
+ [30] digest_0.6.39            
+ [31] siggenes_1.84.0          
+ [32] reshape_0.8.10           
+ [33] AnnotationDbi_1.72.0     
+ [34] DESeq2_1.50.2            
+ [35] textshaping_1.0.5        
+ [36] RSQLite_2.4.6            
+ [37] base64_2.0.2             
+ [38] labeling_0.4.3           
+ [39] timechange_0.4.0         
+ [40] mgcv_1.9-4               
+ [41] httr_1.4.8               
+ [42] abind_1.4-8              
+ [43] compiler_4.5.2           
+ [44] beanplot_1.3.1           
+ [45] rngtools_1.5.2           
+ [46] bit64_4.6.0-1            
+ [47] withr_3.0.2              
+ [48] S7_0.2.1                 
+ [49] BiocParallel_1.44.0      
+ [50] DBI_1.3.0                
+ [51] HDF5Array_1.38.0         
+ [52] MASS_7.3-65              
+ [53] openssl_2.3.5            
+ [54] DelayedArray_0.36.0      
+ [55] rjson_0.2.23             
+ [56] tools_4.5.2              
+ [57] otel_0.2.0               
+ [58] rentrez_1.2.4            
+ [59] glue_1.8.0               
+ [60] quadprog_1.5-8           
+ [61] h5mread_1.2.1            
+ [62] restfulr_0.0.16          
+ [63] nlme_3.1-168             
+ [64] rhdf5filters_1.22.0      
+ [65] grid_4.5.2               
+ [66] gtable_0.3.6             
+ [67] tzdb_0.5.0               
+ [68] preprocessCore_1.72.0    
+ [69] data.table_1.18.2.1      
+ [70] hms_1.1.4                
+ [71] xml2_1.5.2               
+ [72] pillar_1.11.1            
+ [73] vroom_1.7.0              
+ [74] genefilter_1.92.0        
+ [75] splines_4.5.2            
+ [76] lattice_0.22-9           
+ [77] survival_3.8-6           
+ [78] rtracklayer_1.70.1       
+ [79] bit_4.6.0                
+ [80] GEOquery_2.78.0          
+ [81] annotate_1.88.0          
+ [82] tidyselect_1.2.1         
+ [83] scrime_1.3.7             
+ [84] statmod_1.5.1            
+ [85] stringi_1.8.7            
+ [86] yaml_2.3.12              
+ [87] codetools_0.2-20         
+ [88] cigarillo_1.0.0          
+ [89] cli_3.6.5                
+ [90] systemfonts_1.3.2        
+ [91] xtable_1.8-8             
+ [92] dichromat_2.0-0.1        
+ [93] Rcpp_1.1.1               
+ [94] png_0.1-9                
+ [95] XML_3.99-0.22            
+ [96] blob_1.3.0               
+ [97] mclust_6.1.2             
+ [98] doRNG_1.8.6.3            
+ [99] sparseMatrixStats_1.22.0 
+[100] bitops_1.0-9             
+[101] scales_1.4.0             
+[102] illuminaio_0.52.0        
+[103] crayon_1.5.3             
+[104] rlang_1.1.7              
+[105] KEGGREST_1.50.0          
