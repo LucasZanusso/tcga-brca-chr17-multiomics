@@ -220,8 +220,8 @@ conda env create -f environment_locked.yml
 Active development
 
 - ✅ CNV analysis completed
-- ✅ RNA-seq analysis in completed
-- ✅ Methylation analysis in completed
+- ✅ RNA-seq analysis completed
+- ✅ Methylation analysis completed
 - 🔄 Multi-omics integration planned
 - 🔄 Results discussion planned
 
@@ -229,6 +229,7 @@ Active development
 ## Related projects
 
 - [SARS-CoV-2 Genomic Surveillance](../sars-cov2-surveillance) — variant calling pipeline (BWA-MEM → BCFtools → SnpEff) that originated the QC and alignment scripts reused here.
+  > Note: these steps are not executed in the current workflow, as preprocessed TCGA data were used.
 - Future: RNA-seq differential expression (`05_rnaseq.R`)
 - Future: DNA methylation analysis (`06_methylation.R`)
 - Future: Multi-omics integration (`07_integration.R`) — connects all three projects
